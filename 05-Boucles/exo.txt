@@ -15,7 +15,7 @@
 
         """)
 
-        - Tant que le choix est différent de q, le menu s'Affichez
+        - Tant que le choix est différent de q, le menu s'Affiche
         - Tant que le choix saisi n'est pas valide, l'utilisateur doit saisir un autre
 
         - Si le choix est valide: demandez la saisie de 2 nombres (float)
@@ -34,6 +34,7 @@
 
         """)
 
-        - Tant que choix est différent le menu s'affiche.
-        - Si choix égale 1 -> demandez la saisie du nombre de minutes à convertir -> affichez le résultat
+        - Tant que choix est différent de 2 le menu s'affiche.
+        - Si choix égale 1 -> demandez la saisie du
+        nombre de minutes à convertir -> affichez le résultat
          Ex: 90 -> affichez : 90m = 1h 30m 

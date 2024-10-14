@@ -1,6 +1,6 @@
 print("********* Bloc itératif:")
 
-# est un boc d'instructions qui peut être répété un certain nombre de fois
+# est un bloc d'instructions qui peut être répété un certain nombre de fois
 # Si le nombre d'itérations est connu, on utilise la boucle for.
 # Si ce n'est pas connu, mais que le bloc d'instructions dépend d'une condition, on utilise la boucle while
 
