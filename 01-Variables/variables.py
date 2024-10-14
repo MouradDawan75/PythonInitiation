@@ -2,7 +2,7 @@
 # Types numériques: int, float, complex
 # Type textuel: str (string)
 # Type boolean: bool (True/False)
-# Type listes: range, tuple, list
+# Type listes: range(), tuple, list
 # Type ensemble: set
 # Type mapping: dict (fonctionne par association clé:valeur)
 

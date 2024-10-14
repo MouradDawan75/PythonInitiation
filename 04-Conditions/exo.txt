@@ -1,0 +1,5 @@
+1) Demandez la saisie d'un nombre à la console 
+et affichez si ce nombre est pair ou impair
+
+2) Demandez la saisie d'un mot à la console 
+et affichez si ce mot contient ou pas la lettre e.
