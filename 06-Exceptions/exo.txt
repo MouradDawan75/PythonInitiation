@@ -8,3 +8,4 @@ Le programme indiquera à l'utilisateur si son nombre est supérieur ou inférie
 import random
 
 aleatoire = random.randint(1,100)
+

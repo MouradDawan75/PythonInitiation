@@ -1,0 +1,14 @@
+1) Définir une fonction qui renvoie la somme des éléments d'une liste d'entiers. 
+Ex: lst = [1,2,3] -> résultat = 6
+
+2) Définir une fonction qui renvoie la moyenne des éléments d'une liste d'entiers.
+3) Ecrire une fonction qui affiche la table de multiplication d'un nombre où le premier et 
+le dernier multiple sont des params de la fonction.
+Ex: table_multiplication(13,1, 11)
+Résultal à afficher:
+13 x 1 = 13
+13 x 2 = 26
+.
+.
+.
+13 x 11 = 143
