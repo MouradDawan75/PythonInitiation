@@ -61,3 +61,6 @@ print(s)
 c = "l'entrée"
 c = 'l\'entrée'
 print(c)
+
+print("Prénom:",prenom,"Age:",age)
+print("Prénom:",prenom,"Age:",age,sep="/")

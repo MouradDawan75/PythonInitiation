@@ -1,7 +1,15 @@
 1) Définir une fonction qui renvoie la somme des éléments d'une liste d'entiers. 
 Ex: lst = [1,2,3] -> résultat = 6
 
+def somme_liste(entiers):
+    pass
+
 2) Définir une fonction qui renvoie la moyenne des éléments d'une liste d'entiers.
+
+def moyenne_liste(entiers):
+    pass
+
+
 3) Ecrire une fonction qui affiche la table de multiplication d'un nombre où le premier et 
 le dernier multiple sont des params de la fonction.
 Ex: table_multiplication(13,1, 11)
@@ -12,3 +20,6 @@ Résultal à afficher:
 .
 .
 13 x 11 = 143
+
+def table_multipication(nombre, premier_multiple, dernier_multiple):
+    pass
