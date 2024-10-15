@@ -4,7 +4,7 @@ print("********* Bloc itératif:")
 # Si le nombre d'itérations est connu, on utilise la boucle for.
 # Si ce n'est pas connu, mais que le bloc d'instructions dépend d'une condition, on utilise la boucle while
 
-# La boucle FOR: permet de parcourir tous les éléments d'une collection
+# La boucle FOR: permet de parcourir tous les éléments d'une collection (list,set,dictionnaire, tuple)
 # La boucle WHILE (boucle conditionnelle): permet d''exécuter un bloc d'instructions tant qu'une condition est vraie
 # 
 print("*** Boucle FOR:")

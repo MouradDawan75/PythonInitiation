@@ -68,6 +68,7 @@ print("la suite......")
 
 note = 16
 
+
 match note:
 
     case 0|1|2|3|4|5|6|7|8|9:

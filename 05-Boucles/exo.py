@@ -43,7 +43,54 @@ for e in range(2, 11, 2):
 
 #3)
 
-print(">>>>>>>>>>>>>>>>> Exo3 <<<<<<<<<<<<<<<<<<<<<<<<<<")
+print(">>>>>>>>>>>>>>>>> Exo3 avec une boucle finie:<<<<<<<<<<<<<<<<<<<<<<<<<<")
+
+# Définir la condition pour que la boucle s'exécute au moins une fois
+
+choice = 'x'
+
+while choice != 'q':
+
+    choix = input("""
+
+                Menu:
+                - Addition: tapez a
+                - Soustraction: tapez s
+                - Multiplication: tapez m
+                - Division: tapez d
+                - Quitter: tapez q
+
+                Votre choix ?
+
+            """)
+    
+
+    if choix not in ['a','s','m','d']:
+        print("Choix invalide....")
+        continue
+
+    # if choix not in 'asmd':
+    #     print("Choix invalide....")
+    #     continue
+
+    nb1 = float(input("Premier nombre: "))
+    nb2 = float(input("Second nombre: "))
+
+    match choix:
+
+        case 'a':
+            print(f"{nb1} + {nb2}  = {nb1 + nb2}")
+
+        case 's':
+            print(f"{nb1} - {nb2}  = {nb1 - nb2}")
+
+        case 'm':
+            print(f"{nb1} x {nb2}  = {nb1 * nb2}")
+
+        case 'd':
+            print(f"{nb1} / {nb2}  = {nb1 / nb2}")
+
+print(">>>>>>>>>>>>>>>>> Exo3 avec une boucle infinie:<<<<<<<<<<<<<<<<<<<<<<<<<<")
 
 while True:
     choix = input("""

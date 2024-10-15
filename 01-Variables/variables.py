@@ -103,3 +103,4 @@ nb2 = int(input("Second nombre: "))
 s = nb1 + nb2
 print("somme = "+str(s)) # En python on ne peut concaténer que des str
 
+    
