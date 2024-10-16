@@ -1,0 +1,26 @@
+
+************** Pratique la syntaxe Comprehension List
+1)
+entiers = range(-10,10)
+Construire une liste ne contenant que les nombres positifs
+
+2)
+entiers = range(10)
+Construire une liste en inversant uniquement les nombres impairs
+Résulat attendu: 0,-1,2,-3,4,-5.......
+
+3)
+lst = [1,3,7,5,9]
+Affichez le nombre d'éléments supérieurs à 3 (syntaxe liste en compréhension)
+
+4)
+Définir une fonction qui renvoie la somme des nombres pairs distincts d'une liste d'entiers
+def somme_distincts(entiers:list[int]):
+        pass
+
+Ex: lst = [2,2,4,6,4,8] -> somme = 18
+
+5) 
+listA = [1,2,3,4]
+listB = [1,2]
+Créez une liste qui est la différnce entre ces 2 listes

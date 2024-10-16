@@ -113,5 +113,3 @@ print(add(5,10))
 # pip install nom_module
 # pip uninstall nom_module
 # pip list
-
-# pip install streamlit
