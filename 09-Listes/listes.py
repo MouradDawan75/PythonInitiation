@@ -119,3 +119,37 @@ nombres = range(10)
 
 nombres_pairs = [e for e in nombres if e % 2 == 0]
 
+print(">>>>>>>>>>>>>>> Multiples conditions:")
+
+nombres = range(10)
+
+# Nouvelle liste ne contenant que les nombres pairs supérieurs à 4
+
+# Sol1: utilisation de l'opérateur logique -> and
+
+liste_sol1 = [e for e in nombres if e % 2 == 0 and e > 4]
+
+# Sol2: utilisation de if pour chaque condition -> aucune limite sur le nombre de if à utiliser
+
+liste_sol2 = [e for e in nombres if e % 2 == 0 if e > 4]
+
+print(">>>>>>> Module random pour les listes:")
+
+from random import choice,sample,shuffle
+
+cartes = [1,2,3,4,5,6,7,8,9,10]
+
+print(">>choice: élément aléatoire à partir d'une liste")
+
+print(choice(cartes))
+
+print(">>>sample: sous liste aléatoire")
+print(sample(cartes,5))
+
+print(">>>shuffle: mélanger les éléments d'une liste")
+shuffle(cartes)
+
+print(cartes)
+
+
+

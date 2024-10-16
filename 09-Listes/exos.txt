@@ -1,5 +1,5 @@
 
-************** Pratique la syntaxe Comprehension List
+************** Pratiquer la syntaxe Comprehension List
 1)
 entiers = range(-10,10)
 Construire une liste ne contenant que les nombres positifs
@@ -18,9 +18,9 @@ Définir une fonction qui renvoie la somme des nombres pairs distincts d'une lis
 def somme_distincts(entiers:list[int]):
         pass
 
-Ex: lst = [2,2,4,6,4,8] -> somme = 18
+Ex: lst = [2,2,4,6,4,8] -> somme = 20
 
 5) 
 listA = [1,2,3,4]
 listB = [1,2]
-Créez une liste qui est la différnce entre ces 2 listes
+Créez une liste qui est la différence entre ces 2 listes
