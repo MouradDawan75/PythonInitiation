@@ -41,3 +41,10 @@ print(a.symmetric_difference(b))
 ensemble = set('abracadabra')
 
 # un nouvel ensemble ne contenant que les lettres différentes de a,b et c
+new_ensemble = {lettre for lettre in ensemble if lettre not in 'abc'}
+
+# Suppression de doublons dans une liste
+lst = [1,1,2,2,3,3]
+lst = set(lst)
+lst = list(lst)
+print(lst)
